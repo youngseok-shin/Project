@@ -8,5 +8,7 @@
 </head>
 <body>
 메뉴화면
+
+<h1> 수정</h1>
 </body>
 </html>
