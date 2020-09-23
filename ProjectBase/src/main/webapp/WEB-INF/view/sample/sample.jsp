@@ -31,6 +31,7 @@
 </head>
 <body>
 <div>해당화면은 샘플페이지입니다.</div>
+<h1>홍상태 Commit</h1>
 <img src="resources/images/spongebob.png" width="100px;">
 
 <div class="page-header">
