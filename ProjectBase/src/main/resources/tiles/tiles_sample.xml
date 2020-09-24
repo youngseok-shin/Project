@@ -4,7 +4,7 @@
 <tiles-definitions>
 	<definition name="baseLayout" template="/WEB-INF/view/common/template.jsp">
 		<put-attribute name="title" value="Project"/>
-		<put-attribute name="menu" value="/WEB-INF/view/common/menu.jsp"/>
+		<put-attribute name="header" value="/WEB-INF/view/common/menu.jsp"/>
 		<put-attribute name="body" value=""/>
 	</definition>
 	

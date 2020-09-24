@@ -28,7 +28,12 @@ label.error{
 .myContainer{
 	margin-right: auto;
 	margin-left: auto;
-	width: 80%;
+	width: 100%;
+}
+
+div.header {
+	height: 70px;
+	background: gray;
 }
 </style>
 <script type="text/javascript">
@@ -39,11 +44,18 @@ $.validator.addMethod('regx', function(value, element, regexpr){
 </script>
 </head>
 <body>
-<div style="height: 30px;"></div>
 <div class="container-fluid">
 	<div class="myContainer">
-		<tiles:insertAttribute name="menu" />
-		<tiles:insertAttribute name="body" />
+		<div class="row">
+			<div class="header col-md-12">
+				<tiles:insertAttribute name="header" />
+			</div>
+		</div>
+		<div class="row">
+			<div class="body col-md-12">
+				<tiles:insertAttribute name="body" />
+			</div>
+		</div>
 	</div>
 </div>
 </body>

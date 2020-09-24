@@ -14,6 +14,11 @@ public class SampleController {
 	public String manageBuy() {
 		return "sample/sample";
 	}
+
+	@RequestMapping(value = "/test.do")
+	public String test() {
+		return "sample/test";
+	}
 	
 }
 

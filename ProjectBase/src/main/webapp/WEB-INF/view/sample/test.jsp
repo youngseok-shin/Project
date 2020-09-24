@@ -5,28 +5,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<script type="text/javascript">
-	location.href = 'test.do';
-</script>
-<script type="text/javascript">
-</script>
 </head>
 <body>
-시작 페이지... index.jsp
+테스트파일입니다
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
