@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="resources/css/menu.css?ver=11" />
+<link rel="stylesheet" type="text/css" href="resources/css/menu.css?ver=17" />
 </head>
 <body>
 	<div class="flex-container">
@@ -22,11 +22,11 @@
 			<span class="spantag">bbbbb</span><br><br>
 			<span class="spantag">ccccc</span><br><br>
 			<span class="spantag">ddddd</span><br><br>
-			<span class="spantag">eeeee</span><br><br>
+			<span class="spantag">eeeee</span><br>
 			</div>
 		</div>
-		<div id="box3">사이트이름</div>
-		<div id="box2">
+		<div id="box2">사이트이름</div>
+		<div id="box3">
 			임시공간&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="signUp">회원가입</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="signIn">로그인</span>
 		</div>
 	</div>

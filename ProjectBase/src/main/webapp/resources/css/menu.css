@@ -61,27 +61,31 @@ input[id="menuicon"]:checked + label + div {
 .flex-container {
 	
 	display: flex;
-	justify-content: space-between;
+	align-items: stretch;
+/* 	justify-content: space-between; */
 	
 }
 
 #box1{
-	
+	width: 40px;
+	margin-right:15px;
 }
 
 
 #box2{
+	z-index: 2;
 	margin-top: 25px;
-	margin-right: 40px;
 	font-weight: bold;
 	font-size: large;
+	flex-grow: 1;
+	text-align: left;
 }
 #box3{
-	z-index: 2;
-	margin-left:-700px;
 	margin-top: 25px;
 	font-weight: bold;
 	font-size: large;
+	flex-grow: 9;
+	text-align: right;
 }
 
 #signUp{
