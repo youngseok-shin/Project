@@ -15,9 +15,9 @@ public class SampleController {
 		return "sample/sample";
 	}
 
-	@RequestMapping(value = "/test.do")
+	@RequestMapping(value = "/main.do")
 	public String test() {
-		return "sample/test";
+		return "sample/main";
 	}
 	
 }
