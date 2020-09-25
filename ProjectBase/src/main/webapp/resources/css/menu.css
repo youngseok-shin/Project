@@ -94,8 +94,22 @@ input[id="menuicon"]:checked + label + div {
 #signIn{
 	cursor: pointer;
 }
-.spantag{
+.mainSpanTag{
+	cursor: pointer;
 	font-weight: bold;
 	font-size: x-large;
-	margin-left: 18px;
+	margin-left: 25px;
+	display: block;
+	margin-bottom: 10px;
 }
+
+.subSpanTag{
+	cursor: pointer;
+	font-weight: bold;
+	font-size: large;
+	margin-left: 25px;
+	display: block;
+	margin-bottom: 10px;
+	
+}
+
