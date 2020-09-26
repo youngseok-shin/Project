@@ -22,7 +22,7 @@
 				<span></span>
 			</label>
 			<div class="sidebar">
-			<span class="mainSpanTag" style="margin-top: 80px;" onclick="location.href='main.do'">홈</span>
+			<span class="mainSpanTag" style="margin-top: 80px;" onclick="location.href='/biz/main.do'">홈</span>
 			<span class="mainSpanTag" id="menu_camp">캠핑GO</span>
 			<span class="subSpanTag hidden" id="sub_menu_camp">캠핑GO!!!!</span>
 			
@@ -33,7 +33,7 @@
 		</div>
 		<div id="box2">사이트이름</div>
 		<div id="box3">
-			임시공간&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="signUp">회원가입</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="signIn">로그인</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			임시공간&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/biz/user/join.do"><span id="signUp">회원가입</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/biz/user/login.do"><span id="signIn">로그인</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		</div>
 	</div>
 	

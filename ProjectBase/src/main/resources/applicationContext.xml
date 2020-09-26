@@ -6,7 +6,7 @@
 	xmlns:mvc="http://www.springframework.org/schema/mvc"
 	xmlns:tx="http://www.springframework.org/schema/tx"
 	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
-		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.1.xsd">
 
@@ -56,6 +56,20 @@
    <!--  <bean id="uploadPath" class="java.lang.String">
     	<constructor-arg value="D:\uploadFile\bookStore" />
     </bean> -->
+    
+    <!-- MessageSource 등록한다. -->
+	<bean class="org.springframework.context.support.ReloadableResourceBundleMessageSource" id="messageSource">
+		<property name="basenames">
+			<list>
+				<value>/WEB-INF/properties/error_message</value>
+			</list>
+		</property>
+	</bean>
+	
+	<!-- MessageSource를 사용하기위한 Accesssor 등록 -->
+	<bean class="org.springframework.context.support.MessageSourceAccessor" id="messageSourceAccessor">
+		<constructor-arg ref="messageSource" />
+	</bean>
 	
 </beans>
 
