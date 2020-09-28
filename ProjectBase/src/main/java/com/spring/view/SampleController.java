@@ -15,11 +15,24 @@ public class SampleController {
 		return "sample/sample";
 	}
 
+//	@RequestMapping(value = "/main.do")
+//	public String test() {
+//		return "sample/main";
+//	}
+	
 	@RequestMapping(value = "/main.do")
-	public String test() {
-		return "sample/main";
+	public String test1() {
+		return "sample/test1";
 	}
 
+	
+	
+	
+	
+	
+	
+	
+	
 	@RequestMapping(value = "/admin.do")
 	public String tes1t() {
 		return "admin/aa";
