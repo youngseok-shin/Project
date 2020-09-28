@@ -16,6 +16,18 @@
 		<put-attribute name="body" value="/WEB-INF/view/user/{1}.jsp" />
 	</definition>
 	
+	<definition name="admin/*" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/view/admin/{1}.jsp" />
+	</definition>
+	
+	<definition name="board/*" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/view/board/{1}.jsp" />
+	</definition>
+	
+	<definition name="shop/*" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/view/shop/{1}.jsp" />
+	</definition>
+	
 </tiles-definitions>
 
 

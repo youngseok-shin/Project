@@ -9,13 +9,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-
 import com.spring.biz.validator.UserValidator;
 import com.spring.biz.vo.UserBean;
 
 @Controller
-@RequestMapping("/user")
 public class UserController {
 
 	@GetMapping("/login.do")
@@ -52,6 +49,8 @@ public class UserController {
 		UserValidator validator1 = new UserValidator();
 		binder.addValidators(validator1);
 	}
+	
+
 }
 
 

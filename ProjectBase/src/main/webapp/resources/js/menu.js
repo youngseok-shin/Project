@@ -12,6 +12,8 @@ $(document).ready(function(){
 			$('#sub_menu_camp').addClass('hidden');
 		}
 	});
+	
+	
 });
 
 /* 함수선언 영역*/
