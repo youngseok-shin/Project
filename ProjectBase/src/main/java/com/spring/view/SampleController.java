@@ -26,10 +26,6 @@ public class SampleController {
 	public String tes1t() {
 		return "admin/aa";
 	}
-	@RequestMapping(value = "/board.do")
-	public String test2() {
-		return "board/bb";
-	}
 	@RequestMapping(value = "/shop.do")
 	public String test3() {
 		return "shop/cc";
