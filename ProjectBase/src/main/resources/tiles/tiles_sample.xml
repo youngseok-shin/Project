@@ -27,6 +27,10 @@
 	<definition name="shop/*" extends="baseLayout">
 		<put-attribute name="body" value="/WEB-INF/view/shop/{1}.jsp" />
 	</definition>
+
+	<definition name="campsite/*" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/view/campsite/{1}.jsp" />
+	</definition>
 	
 </tiles-definitions>
 

@@ -77,7 +77,7 @@
      <!--    <h2>Page Section 2</h2> -->
     </div>
     <div class="content feedback" id="feedback">
-        <img alt="" src="resources/images/08.jpg"width="100%" height="100%;">
+        <img alt="" src="resources/images/08.jpg" width="100%" height="100%;">
 <!--         <h2>Page Section 3</h2> -->
     </div>
     <div class="content maps" id="maps">

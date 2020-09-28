@@ -23,7 +23,7 @@
 			</label>
 			<div class="sidebar">
 			<span class="mainSpanTag" style="margin-top: 80px;" onclick="location.href='/biz/main.do'">홈</span>
-			<span class="mainSpanTag" id="menu_camp">캠핑GO</span>
+			<span class="mainSpanTag" id="menu_camp" onclick="location.href='campsiteSearch.do'">캠핑GO</span>
 			<span class="subSpanTag hidden" id="sub_menu_camp">캠핑1!!!!</span>
 			<span class="subSpanTag hidden" id="sub_menu_camp">캠핑2!!!!</span>
 			<span class="subSpanTag hidden" id="sub_menu_camp">캠핑3!!!!</span>
