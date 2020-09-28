@@ -12,25 +12,14 @@ public class SampleController {
 	
 	@RequestMapping(value = "/sample.do")
 	public String manageBuy() {
-		return "sample/sample";
+		return "main/sample";
 	}
 
-//	@RequestMapping(value = "/main.do")
-//	public String test() {
-//		return "sample/main";
-//	}
-	
 	@RequestMapping(value = "/main.do")
-	public String test1() {
-		return "sample/test1";
+	public String main() {
+		return "main/main";
 	}
 
-	
-	
-	
-	
-	
-	
 	
 	
 	@RequestMapping(value = "/admin.do")
