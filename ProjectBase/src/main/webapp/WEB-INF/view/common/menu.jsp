@@ -29,7 +29,7 @@
 			<span class="subSpanTag hidden" id="sub_menu_camp">캠핑3!!!!</span>
 			
 			<span class="mainSpanTag" onclick="location.href='board.do'">캠핑Talk(게시판)</span>
-			<span class="mainSpanTag" onclick="location.href='shop.do'">캠핑플러스</span>
+			<span class="mainSpanTag" onclick="location.href='shop.do'">민수쇼핑몰</span>
 			<span class="mainSpanTag" onclick="location.href='admin.do'" id="">고객센터</span>
 			
 			</div>
