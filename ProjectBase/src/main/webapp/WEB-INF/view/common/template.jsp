@@ -44,7 +44,7 @@ label.error {
 
 div.header {
 	height: 70px;
-	background: gray;
+	background: white;
 }
 </style>
 <script type="text/javascript">

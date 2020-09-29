@@ -91,14 +91,61 @@ margin: 0 auto;
 td,th{
 vertical-align: middle;
 }
+
+ul{
+display: block;
+    position: relative;
+    width: 99.5%;
+    height: 40px;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 30px;
+    clear: both;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    clear: both;
+
+
+}
+
+.pre{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    height: 40px;
+    line-height: 38px;
+    text-align: left;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+}
+.next{
+position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 80px;
+    height: 40px;
+    line-height: 38px;
+    text-align: right;
+    background-color: #fff;
+    border-left: 1px solid #ddd;
+}
+.layout{
+width:1200px;
+margin: 0 auto;
+}
 </style>
 </head>
+
 <body>
  <div class="topImage">
  <h1>이미지들어올곳</h1>
-<!-- <img alt="" src="/images/022.png" > -->
+<img alt="" src="images/01.jpg" > 
 </div>
 
+
+<!--  시작 -->
+<div class="layout">
 
 <header>
 
@@ -164,23 +211,20 @@ vertical-align: middle;
 
 </table>
 
-
-
-
-
 </div>
 
-<div><!-- <<표시 -->
+ <div>
+ <!-- //표시 -->
+
 <ul>
+<li class="pre">pre</li>
 <li></li>
-<li></li>
-<li></li>
-<li></li>
+<li class="next">next</li>
 <li></li>
 
 </ul>
 </div> 
-
-
+ 
+</div>
 </body>
 </html>

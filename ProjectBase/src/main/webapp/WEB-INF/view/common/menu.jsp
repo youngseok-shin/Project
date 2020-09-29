@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="resources/css/menu.css?ver=11111" />
+<link rel="stylesheet" type="text/css" href="resources/css/menu.css?ver=15566" />
 <style type="text/css">
 	.hidden{
 		display: none;
@@ -29,6 +29,7 @@
 			<span class="subSpanTag hidden" id="sub_menu_camp">캠핑3!!!!</span>
 			
 			<span class="mainSpanTag" onclick="location.href='board.do'">캠핑Talk(게시판)</span>
+			
 			<span class="mainSpanTag" onclick="location.href='shop.do'">(민수)쇼핑몰</span>
 			<span class="mainSpanTag" onclick="location.href='admin.do'" id="">고객센터</span>
 			
@@ -40,6 +41,6 @@
 		</div>
 	</div>
 	
-<script src="resources/js/menu.js"></script>	
+<script src="resources/js/menu.js?ver=2"></script>	
 </body>
 </html>
