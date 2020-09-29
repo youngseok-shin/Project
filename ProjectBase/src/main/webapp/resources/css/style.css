@@ -126,10 +126,10 @@ body{
         }
 
             .menu ul li a {
-                color: #ffffff;
+                color: #FFFFFF;
                 text-decoration: none;
             }
 
                 .menu ul li a:hover {
-                    color: purple;
+                    color: #FFFFFF;
                 }

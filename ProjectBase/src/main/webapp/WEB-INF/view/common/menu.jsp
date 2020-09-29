@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="resources/css/menu.css?ver=15566" />
+<link rel="stylesheet" type="text/css" href="resources/css/menu.css?ver=44444" />
 <style type="text/css">
 	.hidden{
 		display: none;

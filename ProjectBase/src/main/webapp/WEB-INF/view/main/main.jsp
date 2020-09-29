@@ -8,7 +8,7 @@
     <title>Off-canvas One Page Scroll Navigation Example</title>
     <link rel="stylesheet" href="resources/css/style.css">
 
-    <link rel="stylesheet" type="text/css" href="resources/css/style.css?ver=12" />
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css?ver=24" />
     <script type="text/javascript">
     
     $(document).ready(function() {
@@ -100,7 +100,7 @@
 
 
 
-<script src="resources/js/script.js?ver=2"></script>
+<script src="resources/js/script.js?ver=15"></script>
 </body>
 </html>
 

@@ -53,6 +53,9 @@ margin-bottoms:20px; */
 }
 header{
 height: 100px;
+
+
+
 }
 
 .span1{
@@ -69,20 +72,21 @@ border-top: 2px solid #474747;
 width: 100%;
 text-align: center;
 }
-button{
+/* button{
 width: 24px;
     height: 24px;
     background-image: url('images/01.png');
 
 }
+ */
+/* .topImage{
 
-.topImage{
-position: relative;
     width: 100%;
     height: 160px;
     clear: both;
+    z-index: -5
 }
-
+ */
 tr{
 height:80px;
 margin: 0 auto;
@@ -115,9 +119,10 @@ display: block;
     width: 80px;
     height: 40px;
     line-height: 38px;
-    text-align: left;
+ 
     background-color: #fff;
     border-right: 1px solid #ddd;
+    text-align: center;
 }
 .next{
 position: absolute;
@@ -126,23 +131,51 @@ position: absolute;
     width: 80px;
     height: 40px;
     line-height: 38px;
-    text-align: right;
+
     background-color: #fff;
     border-left: 1px solid #ddd;
+    text-align: center;
+}
+.num{
+    line-height: 38px;
 }
 .layout{
 width:1200px;
 margin: 0 auto;
 }
+/* .sns{
+position: absolute;
+    top: 15px;
+    right: 0;
+    display: block;
+
+} */
+}
+/* button.icon2{
+width: 24px;
+    height: 24px;
+ 
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    width: 24px;
+    height: 24px;
+}  */
 </style>
+
+
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+
+
 </head>
 
 <body>
- <div class="topImage">
- <h1>이미지들어올곳</h1>
-<img alt="" src="images/01.jpg" > 
-</div>
 
+ <div class="topImage">
+ <h1>사진은참고용</h1>
+ 
+<img alt="" src="resources/images/34.jpg" width="100%;" style="height: 60%;" > 
+</div>
 
 <!--  시작 -->
 <div class="layout">
@@ -151,7 +184,18 @@ margin: 0 auto;
 
 
 
-<h2>캠핑소식</h2>
+<h2  style="margin-top: 21px;">캠핑소식</h2>
+
+<!-- <ul class="sns">
+
+<li><button type="button"></button></li>
+<li><button type="button"></button></li>
+<li><button type="button"></button></li>
+<li><button type="button"></button></li>
+
+</ul>
+ -->
+
 <hr>
 
 </header>
@@ -166,12 +210,13 @@ margin: 0 auto;
 
 
 <input type="text" placeholder="검색어를 입력하세요" style="width: 40%; height: 40px;">
-<button type="submit"></button>
+<i class="fas fa-search fa-lg" ></i>
+
 
 
 </div>
 </div>
-<h3> 캠핑소식</h3>
+<h4> <i class="fas fa-heart fa-xs"></i> 캠핑소식</h4>
 
 <p class="span1">
 <span>전체게시물 
@@ -217,14 +262,45 @@ margin: 0 auto;
  <!-- //표시 -->
 
 <ul>
-<li class="pre">pre</li>
-<li></li>
-<li class="next">next</li>
+<li class="pre"><i class="fas fa-angle-double-left"></i></li>
+
+<!--페이지 넘버들어갈거임  -->
+<li class="num"><a href="#">1</a>
+<a href="#">2</a>
+<a href="#">3</a></li>
+
+<li class="next"><i class="fas fa-angle-double-left  fa-flip-horizontal"></i></li>
 <li></li>
 
 </ul>
 </div> 
  
 </div>
+
+
+
+<!-- 
+<form action="" method="post">
+댓글쓰는폼
+<div class="comment">
+<fieldset>
+<dl>
+<dt>댓글쓰기</dt>
+</dl>
+
+<dl>
+<dt>댓글 입력<textarea></textarea></dt>
+<dd><button type="submit"></button>입력</dd>
+
+</dl>
+</fieldset>
+</div>
+</form> -->
+
+
 </body>
 </html>
+
+
+
+

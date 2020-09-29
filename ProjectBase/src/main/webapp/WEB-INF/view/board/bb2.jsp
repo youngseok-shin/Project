@@ -73,92 +73,107 @@ button {
 	height: 24px;
 	background: url('images/01.png');
 }
+
+.layout {
+	width: 1200px;
+	margin: 0 auto;
+}
 </style>
+
+<script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
 </head>
 <body>
-	<header>
-	 <div class="topImage">
- <h1>이미지들어올곳</h1>
-<!-- <img alt="" src="/images/022.png" > -->
-</div>
-	
-	
-	
 
-		<div class="topImage">
-			<img alt="" src="C:\Users\user\images\022.png">
+
+	<div class="topImage">
+		<h1>사진은참고용</h1>
+
+		<img alt="" src="resources/images/34.jpg" width="100%;"
+			style="height: 60%;">
+	</div>
+
+
+	<div class="layout">
+
+		<header>
+			<h2>캠핑 and 여행후기</h2>
+			<hr>
+
+		</header>
+
+
+
+		<div class="total-search">
+
+			<div class="title">
+				<select style="width: 15%; height: 40px;">
+					<option>제목+내용</option>
+				</select> <input type="text" placeholder="검색어를 입력하세요"
+					style="width: 40%; height: 40px;"><i
+					class="fas fa-search fa-lg"></i>
+
+
+			</div>
+		</div>
+		<h3>
+			<i class="fas fa-heart fa-xs"></i>캠핑 and 여행후기
+		</h3>
+
+		<p class="span1">
+			<span>전체게시물</span> <span>Ι 현재페이지</span>
+		</p>
+
+
+
+		<div class="listBoard">
+			<ul>
+				<li>
+					<!-- 게시물 목록중 하나하나  -->
+					<div class="image">이미지
+						<img alt="" src="">
+					</div>
+					<div>
+						<p>후기제목</p>
+						<p>후기내용</p>
+					</div>
+					<div class="date">
+						<ul></ul>
+					</div>
+				</li>
+				<li>작성자</li>
+				<li>작성날짜</li>
+				<li>조회수</li>
+				<li></li>
+
+
+
+
+
+
+			</ul>
+
+
+
+
+		</div>
+
+		<div>
+			<!-- //표시 -->
+
+			<ul>
+				<li class="pre"><i class="fas fa-angle-double-left"></i></li>
+
+				<!--페이지 넘버들어갈거임  -->
+				<li class="num"><a href="#">1</a> <a href="#">2</a> <a href="#">3</a></li>
+
+				<li class="next"><i
+					class="fas fa-angle-double-left  fa-flip-horizontal"></i></li>
+				<li></li>
+
+			</ul>
 		</div>
 
 
-		<h2>캠핑 and 여행후기</h2>
-		<hr>
-
-	</header>
-
-	<div class="total-search">
-
-		<div class="title">
-			<select style="width: 15%; height: 40px;">
-				<option>제목+내용</option>
-			</select> <input type="text" placeholder="검색어를 입력하세요"
-				style="width: 40%; height: 40px;">
-			<button type="submit"></button>
-
-
-		</div>
 	</div>
-	<h3>캠핑 and 여행후기</h3>
-
-	<p class="span1">
-		<span>전체게시물</span> <span>Ι 현재페이지</span>
-	</p>
-
-
-
-	<div class="listBoard">
-		<ul>
-			<li> <!-- 게시물 목록중 하나하나  -->
-				<div class="image">
-					<img alt="" src="">
-				</div>
-				<div>
-					<p>후기제목</p>
-					<p>후기내용</p>
-				</div>
-				<div class="date">
-					<ul></ul>
-				</div>
-			</li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-
-
-
-
-
-
-		</ul>
-
-
-
-
-
-	</div>
-
-	<div>
-		<!-- <<표시 -->
-		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-
-		</ul>
-	</div>
-
-
 </body>
 </html>
