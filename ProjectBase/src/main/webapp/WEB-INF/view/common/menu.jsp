@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="resources/css/menu.css?ver=44444" />
+<link rel="stylesheet" type="text/css" href="resources/css/menu.css?ver=15566" />
 <style type="text/css">
 	.hidden{
 		display: none;
@@ -23,15 +23,28 @@
 			</label>
 			<div class="sidebar">
 			<span class="mainSpanTag" style="margin-top: 80px;" onclick="location.href='/biz/main.do'">홈</span>
-			<span class="mainSpanTag" id="menu_camp" onclick="location.href='campsiteSearch.do'">캠핑GO</span>
-			<span class="subSpanTag hidden" id="sub_menu_camp">캠핑1!!!!</span>
-			<span class="subSpanTag hidden" id="sub_menu_camp">캠핑2!!!!</span>
-			<span class="subSpanTag hidden" id="sub_menu_camp">캠핑3!!!!</span>
+			<span class="mainSpanTag main_menu">캠핑GO</span>
+			<ul class="hidden sub_menu">
+				<li><span>캠핑1</span></li>
+				<li><span>캠핑2</span></li>
+				<li><span>캠핑3</span></li>
+			</ul>
 			
-			<span class="mainSpanTag" onclick="location.href='board.do'">캠핑Talk(게시판)</span>
+			<span class="mainSpanTag main_menu">캠핑Talk(게시판)</span>
+			<ul class="hidden sub_menu">
+				<li>샵1</li>
+				<li>샵2</li>
+				<li>샵3</li>
+			</ul>
 			
-			<span class="mainSpanTag" onclick="location.href='shop.do'">(민수)쇼핑몰</span>
-			<span class="mainSpanTag" onclick="location.href='admin.do'" id="">고객센터</span>
+			<span class="mainSpanTag main_menu">(민수)쇼핑몰</span>
+			<ul class="hidden sub_menu">
+				<li>샵1</li>
+				<li>샵2</li>
+				<li>샵3</li>
+			</ul>
+			
+			<span class="mainSpanTag" onclick="location.href='admin.do'">고객센터</span>
 			
 			</div>
 		</div>
