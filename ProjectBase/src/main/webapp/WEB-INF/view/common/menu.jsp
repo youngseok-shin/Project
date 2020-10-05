@@ -39,7 +39,7 @@
 			
 			<span class="mainSpanTag main_menu">(민수)쇼핑몰</span>
 			<ul class="hidden sub_menu">
-				<li>샵1</li>
+				<li onclick="location.href = 'shopList.sh'">쇼핑몰 바로가기</li>
 				<li>샵2</li>
 				<li>샵3</li>
 			</ul>
