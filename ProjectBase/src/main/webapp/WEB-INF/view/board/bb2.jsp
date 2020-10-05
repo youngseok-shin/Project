@@ -213,9 +213,9 @@ float: right;
 		
 	
 		
-			<a href="https://www.facebook.com/groups/campingpeople"><img alt="facebook" src="resources/images/logo2.png" width="50px;"></a>
-			<a href="https://www.instagram.com/explore/tags/camping/"><img alt="insta" src="resources/images/logo1.png" width="50px;"></a>
-			<a href="https://section.blog.naver.com/Search/Post.nhn?pageNo=1&rangeType=ALL&orderBy=sim&keyword=%EC%BA%A0%ED%95%91"><img alt="naver" src="resources/images/logo.png" width="50px;"></a>
+			<a href="https://www.facebook.com/groups/campingpeople" target="_blank"><img alt="facebook" src="resources/images/logo2.png" width="50px;"></a>
+			<a href="https://www.instagram.com/explore/tags/camping/" target="_blank"><img alt="insta" src="resources/images/logo1.png" width="50px;"></a>
+			<a href="https://section.blog.naver.com/Search/Post.nhn?pageNo=1&rangeType=ALL&orderBy=sim&keyword=%EC%BA%A0%ED%95%91" target="_blank"><img alt="naver" src="resources/images/logo.png" width="50px;"></a>
 	
 			
 			</h2>	
