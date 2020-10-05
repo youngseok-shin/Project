@@ -186,7 +186,7 @@ width: 24px;
 
 
 
-<h2  style="margin-top: 21px;">캠핑소식</h2>
+<h2  style="margin-top: 21px;">캠핑장 공지사항</h2>
 
 <!-- <ul class="sns">
 
@@ -218,7 +218,7 @@ width: 24px;
 
 </div>
 </div>
-<h4> <i class="fas fa-rss"></i> 캠핑소식</h4>
+<h4> <i class="fas fa-rss"></i> 캠핑장 공지사항</h4>
 
 <p class="span1">
 <i class="fas fa-book-open"></i>
@@ -235,8 +235,9 @@ width: 24px;
 <thead class="board-top">
 
 <th>번호</th>
+<th>캠핑장</th>
 <th>제목</th>
-<th>작성자</th>
+<th>작성일</th>
 <th>등록일</th>
 <th>조회</th>
 
@@ -245,9 +246,10 @@ width: 24px;
 
 <tbody>
 <tr>
-<td>57</td>
-<td>[캠핑꿀팁] 캠핑매듭, 이것만 알면 99%는 해결!</td>
-<td>관리자</td>
+<td>1</td>
+<td>포천 비둘기낭 캠핑장</td>
+<td>2020 포춘밸리 페스티벌 개최 및 캠핑 프로그램 실시</td>
+<td>김경복</td>
 <td>등록일</td>
 <td>조회</td>
 

@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="resources/css/menu.css?ver=15566" />
+<link rel="stylesheet" type="text/css" href="resources/css/menu.css?ver=143" />
 <style type="text/css">
 	.hidden{
 		display: none;
@@ -32,9 +32,9 @@
 			
 			<span class="mainSpanTag main_menu">캠핑Talk(게시판)</span>
 			<ul class="hidden sub_menu">
-				<li>샵1</li>
-				<li>샵2</li>
-				<li>샵3</li>
+				<li onclick="location.href='board.do'">캠핑소식</li>
+				<li onclick="location.href='board1.do'"> 캠핑 & 여행후기 </li>
+				<li onclick="location.href='board2.do'">공지사항</li>
 			</ul>
 			
 			<span class="mainSpanTag main_menu">(민수)쇼핑몰</span>
@@ -54,6 +54,6 @@
 		</div>
 	</div>
 	
-<script src="resources/js/menu.js?ver=2"></script>	
+<script src="resources/js/menu.js?ver=23"></script>	
 </body>
 </html>
