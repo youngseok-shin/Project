@@ -10,12 +10,16 @@ public class CampsiteController {
 	@Resource(name = "sampleService")
 	SampleService sampleService;
 	
-	@RequestMapping(value = "/campsiteSearch.do")
+	@RequestMapping(value = "/campSearch.do")
 	public String searchPage() {
-		return "campsite/searchCampsite";
+		return "campsite/campSearch";
+	}
+	
+	@RequestMapping(value = "/mapSearch.do")
+	public String mapSearch() {
+		return "campsite/mapSearch";
 	}
 
-	
 }
 
 
