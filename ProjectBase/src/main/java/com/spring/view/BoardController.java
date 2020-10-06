@@ -13,23 +13,41 @@ public class BoardController {
 
 	@RequestMapping(value = "/board.do")
 	public String test1() {
-		return "board/bb";
+		return "board/news";
 	}
 
 	@RequestMapping(value = "/board1.do")
 	public String test2() {
-		return "board/bb2";
+		return "board/review";
 	}
 	
 	@RequestMapping(value = "/board2.do")
 	public String test3() {
-		return "board/bb3";
+		return "board/notice";
 	}
 	@RequestMapping(value = "/board3.do")
 	public String test4() {
-		return "board/bb4";
+		return "board/reviewBoard";
+	}
+	
+	@RequestMapping(value = "/board4.do")
+	public String test5() {
+		return "board/newsDetail";
+	}
+	
+	@RequestMapping(value = "/board5.do")
+	public String test6() {
+		return "board/noticeDetail";
+	}
+	
+	
+	@RequestMapping(value = "/board6.do")
+	public String test7() {
+		return "board/reviewDetail";
 	}
 
+	
+	
 }
 
 

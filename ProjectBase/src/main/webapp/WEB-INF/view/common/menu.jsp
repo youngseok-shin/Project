@@ -33,8 +33,10 @@
 			<span class="mainSpanTag main_menu">캠핑Talk(게시판)</span>
 			<ul class="hidden sub_menu">
 				<li onclick="location.href='board.do'">캠핑소식</li>
-				<li onclick="location.href='board1.do'"> 캠핑 & 여행후기 </li>
+				<li onclick="location.href='board1.do'"> 캠핑 & 여행후기</li>
 				<li onclick="location.href='board2.do'">공지사항</li>
+				
+				
 			</ul>
 			
 			<span class="mainSpanTag main_menu">(민수)쇼핑몰</span>
